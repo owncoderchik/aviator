@@ -62,7 +62,7 @@ function goTimerError(time) {
 }
 
 getSignal.onclick = function () {
-    let receivingSignal = getRandomFloat(3.55, 3.55, 2);
+    let receivingSignal = getRandomFloat(3.21, 3.21, 2);
     if (receivingSignal.toString().length == 3) {
         receivingSignal += "0";
     }
